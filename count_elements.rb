@@ -11,8 +11,7 @@ def count_elements(array)
     else
       new_hash[word] = 1
     end
-   # binding.pry
-    new_hash
+    new_hash.values
   end
 end
  
