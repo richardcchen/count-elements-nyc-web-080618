@@ -12,7 +12,7 @@ def count_elements(array)
       new_hash[word] = 1
     end
   end
-  binding.pry
+  new_hash
   
 end
  
