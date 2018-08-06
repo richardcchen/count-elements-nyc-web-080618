@@ -10,7 +10,7 @@ def count_elements(array)
       new_hash[word] += 1
     else
       new_hash[word] = 1
-    enewnd
+    end
   end
 end
  
