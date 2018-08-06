@@ -6,7 +6,7 @@ def count_elements(array)
   new_hash = {}
   array.each do |word|
   binding.pry  
-    if new_hash[word]
+    if new_hash[word] == nil
       new_hash[word] += 1
     else
       new_hash[word] = 1
