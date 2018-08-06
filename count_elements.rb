@@ -11,7 +11,7 @@ def count_elements(array)
     else
       new_hash[word] = 1
     end
-    new_hash.values
+    
   end
 end
  
